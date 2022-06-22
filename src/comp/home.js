@@ -51,7 +51,7 @@ function Div2() {
           to the public in 1954 at the Basel Watch Fair. It was the first watch
           to be waterproof up to 100m.
         </p>
-        <button>See Watch</button>
+        <button onClick={rolexSub}>See Watch</button>
       </div>
     </div>
   );
@@ -109,3 +109,7 @@ function Div4() {
     </div>
   );
 }
+
+const rolexSub = () => {
+  window.location.href = "/product/NwLOA8w5tzGFUOrvrWLX";
+};
