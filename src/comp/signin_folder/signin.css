@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap");
+
+.divMain {
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 10%;
+  margin-left: 35%; */
+  font-family: "Barlow", sans-serif;
+}
+
+.divSignIn {
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border-style: outset;
+  margin: 5%;
+  border-radius: var(--size-radius);
+  border: 3px solid var(--color-shadow, currentColor);
+  box-shadow: 0.5rem 0.5rem 0 var(--color-shadow, currentColor);
+}
+
+.divSignUp {
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border-style: outset;
+  margin: 5%;
+  border-radius: var(--size-radius);
+  border: 3px solid var(--color-shadow, currentColor);
+  box-shadow: 0.5rem 0.5rem 0 var(--color-shadow, currentColor);
+}
+
+.divMain input[type="text"] {
+  box-sizing: border-box;
+  display: block;
+  width: 90%;
+  border: 3px solid currentColor;
+  color: currentColor;
+  background: transparent;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+/* Placeholder */
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: black;
+}
+/* Placeholder */
+
+.divMain input[type="password"] {
+  box-sizing: border-box;
+  display: block;
+  width: 90%;
+  border: 3px solid currentColor;
+  color: currentColor;
+  background: transparent;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.divMain input[type="submit"] {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 2%;
+}
+
+.divMain input[type="submit"]:hover {
+  background-color: #175619;
+}
+
+form {
+  margin-left: 5.5%;
+  margin-top: 5%;
+}

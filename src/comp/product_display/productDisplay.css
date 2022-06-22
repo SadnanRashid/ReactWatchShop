@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300&display=swap");
+.productBox {
+  display: flex;
+  flex-direction: row;
+  margin: 3%;
+}
+
+.productImageBox {
+  height: 26%;
+  width: 26%;
+  margin-left: 10%;
+  border: solid;
+}
+
+.productImageBox img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.productDescBox {
+  margin-left: 5%;
+  text-align: center;
+  width: 50%;
+  position: relative;
+}
+
+.productDescBox h2 {
+  font-family: "Anek Malayalam", sans-serif;
+  font-size: 200%;
+  font-weight: 700;
+  color: rgb(65, 40, 17);
+}
+.productPrice {
+  margin-top: 3%;
+  font-weight: 500;
+  color: brown;
+}
+.productDesc {
+  margin-top: 7%;
+}
+
+.productDescBoxBtns {
+  margin-top: 3%;
+}
+.button1 {
+  padding: 7px 24px;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

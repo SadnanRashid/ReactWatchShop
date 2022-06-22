@@ -1,0 +1,53 @@
+.mainDivWatch {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 3%;
+  margin-left: 15%;
+}
+.watchBox {
+  height: 370px;
+  width: 250px;
+  margin-left: 3%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+.imgBox {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.watchBoxImg {
+  height: 320px;
+  width: 250px;
+  border-radius: 10px;
+}
+.watchBoxImg:hover {
+  transform: scale(1.5);
+  -ms-transform: scale(1.5); /* IE 9 */
+  -moz-transform: scale(1.5); /* Firefox */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+
+  transition: all 0.5s;
+}
+
+.descBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.titleBox {
+  text-align: center;
+}
+
+.priceBox {
+  text-align: center;
+}
+
+.price {
+  color: red;
+  font-weight: 400;
+}

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Joan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.brandDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+#brandDivLogos {
+  background-image: url("/src/media/brands.png");
+  height: 300px;
+  width: 90%;
+  margin-left: 5.5%;
+  background-size: cover;
+}
+
+#brandDivText {
+  font-family: "Joan", serif;
+  text-align: center;
+  color: rgb(55, 50, 50);
+  margin-bottom: 3.5%;
+}
+
+#offerDiv {
+  background-image: url("/src/media/offer.jpg");
+  height: 80px;
+  margin-top: 5%;
+  width: 100%;
+  background-size: cover;
+}

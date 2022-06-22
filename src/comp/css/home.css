@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Joan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+/* LastDiv */
+#divLast {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  margin-bottom: 100px;
+}
+
+#divLastOne {
+  height: 600px;
+  width: 40%;
+  border-radius: 3%;
+  background-image: url("/src/media/man1.jpg");
+  background-size: cover;
+  margin: 10px;
+  margin-left: 2%;
+}
+
+#divLastTwo {
+  height: 600px;
+  width: 50%;
+  background-color: transparent;
+  margin-left: 3%;
+  border-radius: 5%;
+  margin-top: 2.5%;
+}
+
+#divLastTwo h1 {
+  text-align: center;
+  font-family: "Joan", serif;
+  font-weight: 50;
+  font-size: 50px;
+  color: black;
+  margin-top: 15%;
+}
+
+#divLastTwo p {
+  text-align: center;
+  font-family: "Joan", serif;
+  font-weight: 50;
+  font-size: 22px;
+  color: rgb(77, 74, 74);
+  margin: 10px;
+  margin-top: 20px;
+}
+
+/* Slim Watches Div */
+#divSlim {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+#divSlimOne {
+  height: 300px;
+  width: 55%;
+  margin-left: 4%;
+  background-image: url("/src/media/slim1.jpg");
+  background-size: cover;
+}
+#divSlimTwo {
+  background-color: #424443;
+  height: 300px;
+  width: 37%;
+}
+#divSlimTwo h1 {
+  text-align: center;
+  font-family: "Bebas Neue", serif;
+  font-weight: 50;
+  font-size: 50px;
+  color: White;
+  margin-top: 12%;
+}
+#divSlimTwo button {
+  background-color: transparent;
+  border: solid;
+  border-width: 5px;
+  border-color: rgb(165, 72, 72);
+  color: White;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin-left: 31%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#divSlimTwo button:hover {
+  color: cyan;
+  border-color: aquamarine;
+  margin-top: 10px;
+}
+
+#divSlimTwo p {
+  text-align: center;
+  font-family: "Joan", serif;
+  font-weight: 50;
+  font-size: 22px;
+  color: White;
+  margin: 10px;
+  margin-top: 20px;
+}
+/* Omega Speedmaster  */
+#divSpeed {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: url("/src/media/bannerSpeedmaster.jpg");
+  background-size: contain;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#divSpeedOne {
+  height: 500px;
+  width: 30%;
+  margin-left: 4%;
+  border-radius: 5%;
+  background-image: url("/src/media/speedmaster.jpg");
+  background-size: cover;
+}
+
+#divSpeedTwo {
+  height: 500px;
+  width: 50%;
+  background-color: transparent;
+  margin-left: 6.6%;
+  border-radius: 5%;
+  /* border: solid;
+  border-color: black; */
+}
+
+#divSpeedTwo h1 {
+  text-align: center;
+  font-family: "Bebas Neue", serif;
+  font-weight: 50;
+  font-size: 50px;
+  color: White;
+  margin-top: 15%;
+}
+#divSpeedTwo button {
+  background-color: transparent;
+  border: solid;
+  color: White;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 37%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#divSpeedTwo button:hover {
+  color: cyan;
+  border-color: aquamarine;
+  margin-top: 10px;
+}
+
+#divSpeedTwo p {
+  text-align: center;
+  font-family: "Joan", serif;
+  font-weight: 50;
+  font-size: 22px;
+  color: White;
+  margin: 10px;
+  margin-top: 20px;
+}
+/* sssssssssssssssssssssssssss */
+
+#divSub {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+#divSubOne {
+  height: 500px;
+  width: 30%;
+  margin-left: 7%;
+  border-radius: 5%;
+  background-image: url("/src/media/rolexSub.jpg");
+  background-size: cover;
+}
+
+#divSubTwo {
+  height: 500px;
+  width: 50%;
+  background-color: rgba(18, 15, 15, 0.936);
+  margin-left: 50px;
+  border-radius: 5%;
+}
+
+#divSubTwo h1 {
+  text-align: center;
+  font-family: "Bebas Neue", serif;
+  font-weight: 50;
+  font-size: 50px;
+  color: white;
+  margin-top: 15%;
+}
+#divSubTwo button {
+  background-color: transparent;
+  border: solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 37%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#divSubTwo button:hover {
+  color: cyan;
+  border-color: aquamarine;
+  margin-top: 10px;
+}
+
+#divSubTwo p {
+  text-align: center;
+  font-family: "Joan", serif;
+  font-weight: 50;
+  font-size: 22px;
+  color: white;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.divMain {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.divOne {
+  width: 43%;
+  height: 600px;
+  background-color: #010101;
+  text-align: center;
+}
+
+.divTwo {
+  width: 57%;
+  height: 600px;
+  background-color: #010101;
+  background-image: url("/src/media/g1.jpg");
+  background-size: cover;
+}
+
+#titleOne {
+  font-family: "Bebas Neue", serif;
+  font-weight: 200;
+  font-size: 55px;
+  color: white;
+  margin-top: 25%;
+}
+
+#textOne {
+  color: white;
+}
+
+#productBtn {
+  margin-top: 20px;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Bebas Neue", serif;
+  font-weight: 50;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+#productBtn:hover {
+  background-color: aquamarine;
+  color: black;
+}
