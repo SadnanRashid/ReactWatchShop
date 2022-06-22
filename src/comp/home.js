@@ -31,7 +31,9 @@ function Div1() {
           Experience Ultra Luxerious and exceptional build quality made for the
           passionate ART enthusiast.
         </p>
-        <button id="productBtn">See Watches</button>
+        <button id="productBtn" onClick={watchesRed}>
+          See Watches
+        </button>
       </div>
       <div className="divTwo"></div>
     </div>
@@ -112,4 +114,8 @@ function Div4() {
 
 const rolexSub = () => {
   window.location.href = "/product/NwLOA8w5tzGFUOrvrWLX";
+};
+
+const watchesRed = () => {
+  window.location.href = "/rolex";
 };
