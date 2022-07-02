@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import "../product_display/productDisplay.css";
 import Navbar from "../navbar";
-import { db } from "../../firebase/firebase-config";
+import { auth, db } from "../../firebase/firebase-config";
 import { doc, getDoc } from "firebase/firestore";
 import { useState, useEffect } from "react";
 import { async } from "@firebase/util";
@@ -54,7 +54,12 @@ function ProductDisplay() {
 function ProductDisplayGetData() {}
 
 const buyNow = () => {
-  window.location.href = "/buynow";
+  const user = auth.currentUser;
+  if (user) {
+    window.location.href = "/buynow";
+  } else {
+    alert("You need to signin first");
+  }
 };
 
 export { ProductDisplay };
