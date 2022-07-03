@@ -58,7 +58,7 @@ const buyNow = () => {
   if (user) {
     window.location.href = "/buynow";
   } else {
-    alert("You need to signin first");
+    alert("You need to signin first.");
   }
 };
 
