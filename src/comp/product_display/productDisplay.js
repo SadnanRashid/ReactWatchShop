@@ -10,6 +10,7 @@ function ProductDisplay() {
   let { id } = useParams();
   const [watchDetails, setWatchDetails] = useState("");
   const docRef = doc(db, "rolex", id);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const getWatchData = async () => {
@@ -18,37 +19,49 @@ function ProductDisplay() {
       if (docSnap.exists()) {
         setWatchDetails(docSnap.data());
         console.log(watchDetails);
+        setLoading(true);
       } else {
         // doc.data() will be undefined in this case
         console.log("No such document!");
+        setLoading(true);
       }
     };
     getWatchData();
   }, []);
-  console.log(watchDetails);
-  console.log(id);
+  // console.log(watchDetails);
+  // console.log(id);
   //
-  return (
-    <div>
-      <Navbar />
-      <div className="productBox">
-        {/* <h1>This is the product page. ID: {id}</h1> */}
-        <div className="productImageBox">
-          <img src={watchDetails.image_1} alt="" />
-        </div>
-        <div className="productDescBox">
-          <h2 className="productTitle">{watchDetails.title}</h2>
-          <h3 className="productPrice">Price: ${watchDetails.price}</h3>
-          <p className="productDesc">{watchDetails.desc}</p>
-          <div className="productDescBoxBtns">
-            <button className="button1" onClick={buyNow}>
-              Buy Now
-            </button>
+  if (loading == true) {
+    return (
+      <div>
+        <Navbar />
+        <div className="productBox">
+          {/* <h1>This is the product page. ID: {id}</h1> */}
+          <div className="productImageBox">
+            <img src={watchDetails.image_1} alt="" />
+          </div>
+          <div className="productDescBox">
+            <h2 className="productTitle">{watchDetails.title}</h2>
+            <h3 className="productPrice">Price: ${watchDetails.price}</h3>
+            <p className="productDesc">{watchDetails.desc}</p>
+            <div className="productDescBoxBtns">
+              <button className="button1" onClick={buyNow}>
+                Buy Now
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  );
+    );
+  } else {
+    return (
+      <div className="lds-facebook">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    );
+  }
 }
 
 function ProductDisplayGetData() {}
