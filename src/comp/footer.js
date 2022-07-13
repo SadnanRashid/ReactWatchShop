@@ -18,9 +18,9 @@ export default function Footer() {
       <div className="div2">
         <div id="div2Pages">
           <a href="/">Home</a>
-          <a href="/">Rolex</a>
-          <a href="/">Omega</a>
-          <a href="/">Other Watches</a>
+          <a href="/rolex">Rolex</a>
+          <a href="/rolex">Omega</a>
+          <a href="/rolex">Other Watches</a>
         </div>
       </div>
     </div>
