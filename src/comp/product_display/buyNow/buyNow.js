@@ -3,33 +3,16 @@ import "../buyNow/buyNow.css";
 export default function Buynow() {
   return (
     <div className="container">
-      <div className="price">
-        <h1>Awesome, that's $99.99 !</h1>
-      </div>
+      <div className="price"></div>
       <div className="card__container">
         <div className="card">
-          <div className="row paypal">
-            <div className="left">
-              <input id="pp" type="radio" name="payment" />
-              <div className="radio" />
-              <label htmlFor="pp">Paypal</label>
-            </div>
-            <div className="right">
-              <img src="http://i68.tinypic.com/2rwoj6s.png" alt="paypal" />
-            </div>
-          </div>
           <div className="row credit">
             <div className="left">
               <input id="cd" type="radio" name="payment" />
               <div className="radio" />
               <label htmlFor="cd">Debit/ Credit Card</label>
             </div>
-            <div className="right">
-              <img src="http://i66.tinypic.com/5knfq8.png" alt="visa" />
-              <img src="http://i67.tinypic.com/14y4p1.png" alt="mastercard" />
-              <img src="http://i63.tinypic.com/1572ot1.png" alt="amex" />
-              <img src="http://i64.tinypic.com/2i92k4p.png" alt="maestro" />
-            </div>
+            <div className="right"></div>
           </div>
           <div className="row cardholder">
             <div className="info">
